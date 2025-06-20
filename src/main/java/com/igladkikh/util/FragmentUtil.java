@@ -6,7 +6,7 @@ public class FragmentUtil {
     }
 
     public static boolean isCorrect(String fragment) {
-        String fragmentRegex = "\"?[\\d]*\"?";
+        String fragmentRegex = "\"?[\\d.]*\"?";
         return fragment.matches(fragmentRegex);
     }
 
